@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    background-image: linear-gradient(rgb(213, 235, 255), transparent);
+    border-top: 4px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 8px;
+}
+
+header ul a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+}
+
+h1{
+    font-family: "Montserrat" sans-serif;
+    font-weight: 800;
+    background: url(https://www.infobae.com/new-resizer/l8c8EeB4-xOiYZPRNlgghgtgqko=/arc-anglerfish-arc2-prod-infobae/public/ERMMI56ZDREBXLABVKZ32VHLSI.jpg) bottom / cover fixed #EAFfFD;
+    margin: 10px 0;
+    text-align: center;
+    border-top: 3px dashed grey;
+    border-bottom: 3px dashed grey;
+    border-radius: 2px;
+    padding: 30px;
+}
+
+.topimg{
+    width: 95px;
+    margin: 5px;
+    padding: auto;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(143, 255, 143);
+    font-family: "Montserrat", sans-serif;
+    border-radius: 20px;
+}
+
+.contenedor p{
+    font-family: "MONTSERRAT", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+}
+
+.contenedor img{
+    width: 20px;
+}
+
+.textocontenido{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.videoinformativo{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 25%;
+}
+
+footer{
+    background-color: black;
+    color:aliceblue;
+    font-family: "Montserrat";
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+}
+
+.numero{
+    font-size: 16px;
+}
+
+.piedepag{
+    color: azure;
+    font-size: 18px;
+    padding: 60px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.textospie{
+    align-content: top;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.llamanos{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 3px solid rgb(213, 235, 255);
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+.textform{
+    margin-top: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.botonenviar{
+    width: 40%;
+    margin: 10px 0px 0px 30%;
+}
+
+form{
+    align-content: top;
+    width: 600px;
+    margin: 0px 40px;
+}
+
+ol{
+    font-family: "Montserrat";
+    font-size: 20px;
+    background-color: rgb(143, 255, 143);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+ol li{
+    margin: 20px;
+}
+
+.impacto{
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.referencias{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 20%;
+}
+
+.mapagoogle{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30%;
+    border-radius: 50px;
+    border-color: tra;
+}
+
+.textomapa{
+    margin-top: 50px;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 30px;
+}
+
+.novedades{
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-align: center;
+    padding: 60px;
+    border-style: dashed;
+    border-color: black;
+}
